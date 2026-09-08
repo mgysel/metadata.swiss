@@ -15,6 +15,7 @@
         "WSL"@fr,
         "WSL"@it ;
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0224> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-eth-domain> ;
     foaf:homepage <https://wsl.ch> ;
     foaf:name "Eidgenössische Forschungsanstalt für Wald, Schnee und Landschaft (WSL)"@de,
         "Swiss Federal Institute for Forest, Snow and Landscape Research (WSL)"@en,

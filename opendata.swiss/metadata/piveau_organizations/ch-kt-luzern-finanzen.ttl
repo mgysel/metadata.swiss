@@ -15,7 +15,7 @@
         "Finances (LU)"@fr,
         "Finanze (LU)"@it ;
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0220> ;
-    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern-fd> ;
     foaf:homepage <https://finanzen.lu.ch> ;
     foaf:name "Dienststelle Finanzen (LU)"@de,
         "Finance Department (LU)"@en,

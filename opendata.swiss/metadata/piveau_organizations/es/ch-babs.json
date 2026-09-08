@@ -12,17 +12,26 @@
     },
     "resource": "https://register.ld.admin.ch/i14y/concept/legalForm/0220"
   },
+  "description": {
+    "de": "",
+    "en": "",
+    "fr": "",
+    "it": "",
+    "rm": ""
+  },
   "name": {
     "de": "Bundesamt für Bevölkerungsschutz (BABS)",
     "en": "Federal Office for Civil Protection (FOCP)",
     "fr": "Office fédéral de la protection de la population (OFPP)",
-    "it": "Ufficio federale della protezione della popolazione (UFPP)"
+    "it": "Ufficio federale della protezione della popolazione (UFPP)",
+    "rm": ""
   },
   "pref_label": {
     "de": "BABS",
     "en": "FOCP",
     "fr": "OFPP",
-    "it": "UFPP"
+    "it": "UFPP",
+    "rm": ""
   },
   "homepage": "https://www.babs.admin.ch",
   "hierarchy_level": 1,

@@ -12,17 +12,26 @@
     },
     "resource": "https://register.ld.admin.ch/i14y/concept/legalForm/0221"
   },
+  "description": {
+    "de": "",
+    "en": "",
+    "fr": "",
+    "it": "",
+    "rm": ""
+  },
   "name": {
-    "de": "Kanton Glarus GL",
-    "en": "Canton Glarus GL",
-    "fr": "Canton de Glaris GL",
-    "it": "Canton Glarona GL"
+    "de": "Kanton Glarus",
+    "en": "Canton Glarus",
+    "fr": "Canton de Glaris",
+    "it": "Canton Glarona",
+    "rm": ""
   },
   "pref_label": {
     "de": "GL",
     "en": "GL",
     "fr": "GL",
-    "it": "GL"
+    "it": "GL",
+    "rm": ""
   },
   "homepage": "https://www.gl.ch",
   "hierarchy_level": 0,

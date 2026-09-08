@@ -31,6 +31,27 @@
     "it": "WSL"
   },
   "homepage": "https://wsl.ch",
-  "hierarchy_level": 0,
-  "ancestors": []
+  "hierarchy_level": 1,
+  "sub_organization_of": "ch-eth-domain",
+  "ancestors": [
+    {
+      "id": "ch-eth-domain",
+      "name": {
+        "de": "ETH-Bereich",
+        "en": "ETH Domain",
+        "fr": "Domaine des EPF",
+        "it": "Settore dei PF",
+        "rm": ""
+      },
+      "pref_label": {
+        "de": "ETH-Bereich",
+        "en": "ETH Domain",
+        "fr": "Domaine des EPF",
+        "it": "Settore dei PF",
+        "rm": ""
+      },
+      "resource": "https://opendata.swiss/id/organization/ch-eth-domain",
+      "hierarchy_level": 0
+    }
+  ]
 }

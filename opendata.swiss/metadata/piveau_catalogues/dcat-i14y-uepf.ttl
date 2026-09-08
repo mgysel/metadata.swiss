@@ -17,7 +17,7 @@ Le Service SCPT est chargé d'exécuter les mesures de surveillance visant la co
         """Il Servizio SCPT è il servizio indipendente di sorveglianza della corrispondenza postale e del traffico delle telecomunicazioni. Al fine di proteggere la sfera privata della popolazione, il Servizio SCPT vigila sull'applicazione conforme alla legge e allo Stato di diritto della sorveglianza della corri-spondenza postale e del traffico delle telecomunicazioni. Assicura inoltre il rispetto delle disposizioni vigenti in relazione alla sorveglianza postale e delle telecomunicazioni nell'ambito della procedura penale.\r
 \r
 Il Servizio SCPT esegue, su incarico delle autorità inquirenti o del Servizio delle attività informative della Confederazione (SIC), la sorveglianza della corrispondenza postale e del traffico delle telecomunicazioni. In altre parole si procura, presso i fornitori di servizi di telecomunicazioni (FST), i dati richiesti dalle autorità inquirenti o del SIC nell'ambito delle loro indagini. I FST sono tenuti a rispettare le istruzioni del Servizio SCPT."""@it ;
-    dcterms:modified "2025-12-22T15:51:16.362661"^^xsd:dateTime ;
+    dcterms:modified "2026-08-11T13:00:04.551791"^^xsd:dateTime ;
     dcterms:publisher <https://opendata.swiss/id/organization/ch-uepf> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Dienst Überwachung Post- und Fernmeldeverkehr"@de,

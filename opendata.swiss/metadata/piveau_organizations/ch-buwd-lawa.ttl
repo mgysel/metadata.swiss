@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-buwd-lawa> a org:Organization,
+        foaf:Organization ;
+    dcterms:description """Die Dienststelle Landwirtschaft und Wald fördert die Land- und Forstwirtschaftsbetriebe und schafft bessere Rahmenbedingungen für die primäre Produktion. Sie strebt artenreiche, naturnahe ländliche Räume an und stellt die nachhaltige Nutzung des staatlichen Fischerei- und Jagdregals sicher.
+
+Die Dienststelle umfasst die Abteilungen Landwirtschaft, Wald, Natur, Jagd und Fischerei sowie Zentrale Dienste."""@de,
+        """The Department of Agriculture and Forestry supports agricultural and forestry operations and creates better conditions for primary production. It strives to foster biodiverse, near-natural rural areas and ensures the sustainable use of the state’s fishing and hunting rights.
+
+The department comprises the divisions of Agriculture, Forestry, Nature, Hunting, and Fisheries, as well as Central Services."""@en,
+        """L'office de l'agriculture et des forêts soutient les exploitations agricoles et forestières et crée des conditions-cadres plus favorables à la production primaire. Il œuvre en faveur d'espaces ruraux riches en biodiversité et proches de la nature, et veille à l'exploitation durable des droits de pêche et de chasse appartenant à l'État.
+
+Le Service comprend les départements de l'agriculture, des forêts, de la nature, de la chasse et de la pêche, ainsi que les services centraux."""@fr ;
+    dcterms:identifier "CH_BUWD_LAWA" ;
+    skos:prefLabel "Dienststelle Landwirtschaft und Wald (LU)"@de,
+        "Department of Agriculture and Forestry (LU)"@en,
+        "Office de l'agriculture et des forêts (LU)"@fr ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern-buwd> ;
+    foaf:homepage <https://lawa.lu.ch/> ;
+    foaf:name "Dienststelle Landwirtschaft und Wald (LU)"@de,
+        "Department of Agriculture and Forestry (LU)"@en,
+        "Office de l'agriculture et des forêts (LU)"@fr .
+
+<https://lawa.lu.ch/> a foaf:Document .
+

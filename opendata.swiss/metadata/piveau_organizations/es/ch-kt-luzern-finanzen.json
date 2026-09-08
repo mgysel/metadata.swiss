@@ -31,22 +31,43 @@
     "it": "Finanze (LU)"
   },
   "homepage": "https://finanzen.lu.ch",
-  "hierarchy_level": 1,
-  "sub_organization_of": "ch-kt-luzern",
+  "hierarchy_level": 2,
+  "sub_organization_of": "ch-kt-luzern-fd",
   "ancestors": [
+    {
+      "id": "ch-kt-luzern-fd",
+      "name": {
+        "de": "Finanzdepartement (LU)",
+        "en": "",
+        "fr": "",
+        "it": "",
+        "rm": ""
+      },
+      "pref_label": {
+        "de": "FD (LU)",
+        "en": "",
+        "fr": "",
+        "it": "",
+        "rm": ""
+      },
+      "resource": "https://opendata.swiss/id/organization/ch-kt-luzern-fd",
+      "hierarchy_level": 1
+    },
     {
       "id": "ch-kt-luzern",
       "name": {
-        "de": "Kanton Luzern LU",
-        "en": "Canton Luzern LU",
-        "fr": "Canton de Lucerne LU",
-        "it": "Canton Lucerna LU"
+        "de": "Kanton Luzern",
+        "en": "Canton Luzern",
+        "fr": "Canton de Lucerne",
+        "it": "Canton Lucerna",
+        "rm": ""
       },
       "pref_label": {
         "de": "LU",
         "en": "LU",
         "fr": "LU",
-        "it": "LU"
+        "it": "LU",
+        "rm": ""
       },
       "resource": "https://opendata.swiss/id/organization/ch-kt-luzern",
       "hierarchy_level": 0

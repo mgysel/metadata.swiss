@@ -1,0 +1,22 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-kt-luzern-bkd-kultur> a org:Organization,
+        foaf:Organization ;
+    dcterms:description "Die Dienststelle Kultur setzt sich zusammen aus den Abteilungen Archäologie, Denkmalpflege, Kulturförderung & Vermittlung, Museum Luzern und Zentral- und Hochschulbibliothek. Die Kernaufgaben der Dienststelle sind es, Kultur zu fördern, zu pflegen und zu vermitteln. Das Ziel ist es, das vielfältige, zeitgenössische Kunst- und Kulturschaffen zu fördern, das kulturelle Erbe zu bewahren und zu vermitteln, und den kulturellen Austausch sowie die Teilhabe der Bevölkerung an der Kultur anzuregen."@de,
+        "The Department of Culture consists of the divisions of Archaeology, Historic Preservation, Cultural Promotion & Outreach, the Museum Luzern, and the Central and University Library. The department’s core responsibilities are to promote, preserve, and share culture. The goal is to promote diverse, contemporary artistic and cultural creation, to preserve and share cultural heritage, and to encourage cultural exchange and public participation in culture."@en,
+        "L'office de la culture regroupe les départements suivants : archéologie, conservation du patrimoine, promotion et médiation culturelles, Musée de Lucerne, ainsi que la bibliothèque centrale et universitaire. Les missions principales du Service consistent à promouvoir, préserver et diffuser la culture. L'objectif est de promouvoir la création artistique et culturelle contemporaine dans toute sa diversité, de préserver et de faire connaître le patrimoine culturel, ainsi que d'encourager les échanges culturels et la participation de la population à la vie culturelle."@fr ;
+    dcterms:identifier "CH_KT_LUZERN_BKD_KULTUR" ;
+    skos:prefLabel "Dienststelle Kultur (LU)"@de,
+        "Department of Culture (LU)"@en,
+        "Office de la culture (LU)"@fr ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern-bkd> ;
+    foaf:homepage <https://www.lu.ch/verwaltung/BKD/bkd_dienststellen/bkd_kultur> ;
+    foaf:name "Dienststelle Kultur (LU)"@de,
+        "Department of Culture (LU)"@en,
+        "Office de la culture (LU)"@fr .
+
+<https://www.lu.ch/verwaltung/BKD/bkd_dienststellen/bkd_kultur> a foaf:Document .
+

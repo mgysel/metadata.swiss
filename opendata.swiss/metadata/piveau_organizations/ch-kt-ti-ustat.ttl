@@ -12,13 +12,13 @@ Alla base di questi risultati vi è un'attività che copre tutte le fasi del pro
 
 Nella veste di coordinatore della statistica cantonale l'Ustat opera in prima misura attraverso la preparazione, l'aggiornamento annuale e la rendicontazione del [Programma pluriennale](https://www4.ti.ch/dfe/dr/ustat/chi-siamo/programma-dattivita/programma-pluriennale), in collaborazione con la [Commissione scientifica](https://www4.ti.ch/dfe/dr/ustat/chi-siamo/la-commissione-scientifica) e gli altri attori della [statistica cantonale](https://www4.ti.ch/dfe/dr/ustat/chi-siamo/statistica-cantonale). L'Ustat assicura pure il coordinamento con l'esterno, in primis con il programma e l'attività della [statistica nazionale](https://www4.ti.ch/dfe/dr/ustat/chi-siamo/il-sistema-statistico), ma pure con gli altri servizi statistici e di ricerca regionali, nazionali e transfrontalieri."""@it ;
     dcterms:identifier "CH_KT_TI_USTAT" ;
-    skos:prefLabel "Statistikamt (TI)"@de,
+    skos:prefLabel "Amt für Statistik (TI)"@de,
         "Ufficio di statistica (TI)"@it ;
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
     org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-ti> ;
     foaf:homepage <https://www.ti.ch/ustat> ;
-    foaf:name "Amt für Statistik des Kantons Tessin"@de,
-        "Ufficio di statistica del Canton Ticino"@it .
+    foaf:name "Amt für Statistik (TI)"@de,
+        "Ufficio di statistica (TI)"@it .
 
 <https://www.ti.ch/ustat> a foaf:Document .
 

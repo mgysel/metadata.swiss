@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/kt-lu-uwe> a dcat:Catalog ;
@@ -14,12 +13,8 @@ The department comprises the divisions of Water and Soil, Waste Management and R
         """Le mandat de prestations de l'Office de l'environnement et de l'énergie comprend la surveillance de l'environnement, l'information et le conseil, l'examen des projets ayant une incidence sur l'environnement, la protection des ressources environnementales (par exemple les eaux souterraines), le contrôle, entre autres, des installations de traitement des déchets et des installations de combustion, ainsi que la promotion des énergies renouvelables et de l'efficacité énergétique.\r
 \r
 L'Office comprend les divisions Eaux et sols, Gestion des déchets et risques, Énergie,  Air, bruit et rayonnements, ainsi que les services centraux."""@fr ;
-    dcterms:modified "2026-07-22T07:40:20.194589"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://uwe.lu.ch/> ;
-            foaf:name "Dienststelle Umwelt und Energie"@de,
-                "Department of Environment and Energy"@en,
-                "Office de l'environnement et de l'énergie"@fr ] ;
+    dcterms:modified "2026-07-28T09:07:29.825528"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-kt-luzern-buwd-uwe> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Dienststelle Umwelt und Energie"@de,
         "Department of Environment and Energy"@en,

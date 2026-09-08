@@ -22,6 +22,25 @@
     "de": "Kinder- & Jugendmedizin Köniz"
   },
   "homepage": "https://www.kjmk.ch",
-  "hierarchy_level": 0,
-  "ancestors": []
+  "hierarchy_level": 1,
+  "sub_organization_of": "ch-gde-koeniz",
+  "ancestors": [
+    {
+      "id": "ch-gde-koeniz",
+      "name": {
+        "de": "Gemeinde Köniz",
+        "en": "Gemeinde Köniz",
+        "fr": "Commune de Köniz",
+        "it": "Comune di Köniz"
+      },
+      "pref_label": {
+        "de": "Gemeinde Köniz",
+        "en": "Gemeinde Köniz",
+        "fr": "Commune de Köniz",
+        "it": "Comune di Köniz"
+      },
+      "resource": "https://opendata.swiss/id/organization/ch-gde-koeniz",
+      "hierarchy_level": 0
+    }
+  ]
 }

@@ -12,11 +12,26 @@
     },
     "resource": "https://register.ld.admin.ch/i14y/concept/legalForm/0221"
   },
+  "description": {
+    "de": "",
+    "en": "",
+    "fr": "",
+    "it": "",
+    "rm": ""
+  },
   "name": {
-    "de": "Informatik (AG)"
+    "de": "Informatik (AG)",
+    "en": "",
+    "fr": "",
+    "it": "",
+    "rm": ""
   },
   "pref_label": {
-    "de": "Informatik (AG)"
+    "de": "Informatik (AG)",
+    "en": "",
+    "fr": "",
+    "it": "",
+    "rm": ""
   },
   "hierarchy_level": 2,
   "sub_organization_of": "ch-kt-ag-fin",
@@ -35,16 +50,18 @@
     {
       "id": "ch-kt-ag",
       "name": {
-        "de": "Kanton Aargau AG",
-        "en": "Canton Aargau AG",
-        "fr": "Canton d'Argovie AG",
-        "it": "Canton Argovia AG"
+        "de": "Kanton Aargau",
+        "en": "Canton Aargau",
+        "fr": "Canton d'Argovie",
+        "it": "Canton Argovia",
+        "rm": ""
       },
       "pref_label": {
         "de": "AG",
         "en": "AG",
         "fr": "AG",
-        "it": "AG"
+        "it": "AG",
+        "rm": ""
       },
       "resource": "https://opendata.swiss/id/organization/ch-kt-ag",
       "hierarchy_level": 0

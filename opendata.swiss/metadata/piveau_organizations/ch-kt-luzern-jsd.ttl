@@ -1,0 +1,17 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-kt-luzern-jsd> a org:Organization,
+        foaf:Organization ;
+    dcterms:description "Justiz- und Sicherheitsdepartement - Kanton Luzern"@de ;
+    dcterms:identifier "CH_KT_LUZERN_JSD" ;
+    skos:prefLabel "JSDDS (LU)"@de ;
+    org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern> ;
+    foaf:homepage <https://www.lu.ch/verwaltung/JSD> ;
+    foaf:name "Justiz- und Sicherheitsdepartement (LU)"@de .
+
+<https://www.lu.ch/verwaltung/JSD> a foaf:Document .
+

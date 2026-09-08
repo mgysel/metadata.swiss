@@ -5,6 +5,10 @@
 
 <https://opendata.swiss/id/organization/ch-smn> a org:Organization,
         foaf:Organization ;
+    dcterms:description "Das Schweizerische Nationalmuseum (SNM) ist die Dachorganisation des Bundes für die vier Häuser Landesmuseum Zürich, Schloss Prangins, Forum Schweizer Geschichte Schwyz und Sammlungszentrum in Affoltern am Albis."@de,
+        "The Swiss National Museum (SNM) is the federal organisation for the four institutions: the Swiss National Museum in Zurich, Prangins Castle, the Forum of Swiss History in Schwyz and the Collection Centre in Affoltern am Albis."@en,
+        "Le Musée national suisse (MNS) est l'organisme de la Confédération regroupant les quatre établissements suivants : le Musée national de Zurich, le château de Prangins, le Forum de l'histoire suisse à Schwyz et le Centre des collections à Affoltern am Albis."@fr,
+        "Il Museo Nazionale Svizzero (SNM) è l'organizzazione della Confederazione che riunisce le quattro sedi: il Museo Nazionale di Zurigo, il Castello di Prangins, il Forum della Storia Svizzera di Svitto e il Centro delle collezioni di Affoltern am Albis."@it ;
     dcterms:identifier "CH_SMN" ;
     skos:prefLabel "SNM"@de,
         "SNM"@en,

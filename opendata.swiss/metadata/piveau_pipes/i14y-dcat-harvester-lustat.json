@@ -18,7 +18,7 @@
         },
         "body": {
           "config": {
-            "address": "https://api.i14y.admin.ch/api/public/v1/catalogs/824b51db-a300-4ab1-b805-c3fa28d25c92/dcat/exports/rdf",
+            "address": "https://api.i14y.admin.ch/api/public/v1/catalogs/01a013a4-d262-77d5-afa0-3b1cc23b482b/dcat/exports/rdf",
             "catalogue": "i14y-dcat-harvester-lustat",
             "preProcessing": true,
             "accept": "application/rdf+xml",

@@ -12,7 +12,7 @@
 """@de ;
     dcterms:identifier "CH_KT_SG_STAATSKANZLEI" ;
     skos:prefLabel "Staatskanzlei (SG)"@de ;
-    org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0220> ;
+    org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
     org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-sg> ;
     foaf:homepage <https://www.sg.ch/politik-verwaltung/departemente-und-staatskanzlei/staatskanzlei.html> ;
     foaf:name "Staatskanzlei (SG)"@de .

@@ -4,7 +4,10 @@
 
 <https://example.eu/id/catalogue/dcat-i14y-zivi> a dcat:Catalog ;
     dcterms:created "2025-12-24T10:40:52.329551"^^xsd:dateTime ;
-    dcterms:modified "2025-12-24T10:40:52.329559"^^xsd:dateTime ;
+    dcterms:description "Das Bundesamt für Zivildienst (ZIVI) ist beim Bund für alle Belange des Zivildienstes zuständig und gehört zum Eidgenössischen Departement für Wirtschaft, Bildung und Forschung (WBF). Es sorgt für eine rasche Behandlung der Gesuche um Zulassung zum Zivildienst und eine effiziente Organisation der Einsätze der zivildienstpflichtigen Personen. Ausserdem stellt es den volkswirtschaftlichen Nutzen des Zivildienstes sicher."@de,
+        "Autorité de la Confédération responsable de toutes les questions relatives au service civil, l’Office fédéral du service civil (CIVI) fait partie du Département fédéral de l’économie, de la formation et de la recherche (DEFR). Il pourvoit au traitement rapide des demandes d’admission au service civil, assure l’organisation efficace de l’affectation des civilistes et assure l’utilité économique du service civil."@fr,
+        "L’Ufficio federale del servizio civile (CIVI) è l’autorità federale responsabile di tutte le questioni relative al servizio civile e fa parte del Dipartimento federale dell’economia, della formazione e della ricerca (DEFR). Garantisce che le domande di ammissione al servizio civile siano esaminate rapidamente, che gli impieghi siano organizzati in modo efficiente e assicura l’utilità economica del servizio civile."@it ;
+    dcterms:modified "2026-08-11T12:58:06.343467"^^xsd:dateTime ;
     dcterms:publisher <https://opendata.swiss/id/organization/ch-zivi> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Bundesamt für Zivildienst ZIVI"@de,

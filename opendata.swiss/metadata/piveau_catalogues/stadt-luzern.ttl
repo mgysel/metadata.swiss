@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/stadt-luzern> a dcat:Catalog ;
@@ -10,9 +9,7 @@
 Die Geometadaten zu den einzelnen OGD-Daten sind unter "Zusätzliche Informationen" als Link aufgeführt.\r
 Zu beachten sind weitere Bestimmungen zum Datenschutz und Nutzungsbestimmungen gemäss OGD-Internetauftritt der Stadt Luzern."""@de ;
     dcterms:modified "2026-05-11T07:18:33.316259"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://www.stadtluzern.ch/opengovernmentdata> ;
-            foaf:name "Stadt Luzern"@de ] ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-gde-luzern> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Stadt Luzern"@de ;
     dcterms:type "ckan"^^xsd:string .

@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/stadt-lausanne-dcat-harvester> a dcat:Catalog ;
@@ -8,10 +7,8 @@
     dcterms:description """Le service de la mobilité et de l’aménagement des espaces publics (MAP) de la Ville de Lausanne publie ses géodonnées sous forme de fichiers à télécharger. Toutes les géodonnées actuellement disponibles et soumises aux conditions générales d'aquisition et d'utilisation des géodonnées de base en libre accès sont listées ici.\r
 \r
 """@fr ;
-    dcterms:modified "2023-06-27T14:07:35.249219"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://www.lausanne.ch/> ;
-            foaf:name "Ville de Lausanne"@fr ] ;
+    dcterms:modified "2026-08-10T09:56:39.380620"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-gde-lausanne> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Ville de Lausanne"@fr ;
     dcterms:type "ckan"^^xsd:string .

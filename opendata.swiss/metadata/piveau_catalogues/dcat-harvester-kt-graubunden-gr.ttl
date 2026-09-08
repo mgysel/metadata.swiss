@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/dcat-harvester-kt-graubunden-gr> a dcat:Catalog ;
@@ -9,13 +8,8 @@
         "The Canton of Graubünden is gradually publishing open government datasets from cantonal offices and agencies."@en,
         "Le canton des Grisons publie progressivement des données publiques en libre accès (Open Government Data) d’offices et de services cantonaux."@fr,
         "Il Cantone dei Grigioni pubblica su base continua serie di dati di uffici e servizi cantonali come Open Government Data."@it ;
-    dcterms:modified "2026-03-17T10:49:34.180878"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <> ;
-            foaf:name "Kanton Graubünden"@de,
-                "Canton of Graubünden"@en,
-                "Canton des Grisons"@fr,
-                "Cantone dei Grigioni"@it ] ;
+    dcterms:modified "2026-08-10T09:46:52.157932"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-kt-gr> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Kanton Graubünden"@de,
         "Canton of Graubünden"@en,

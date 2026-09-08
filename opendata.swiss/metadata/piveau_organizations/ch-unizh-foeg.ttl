@@ -10,6 +10,7 @@
         "fög"@en,
         "fög"@fr,
         "fög"@it ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-edu-uzh> ;
     foaf:name "Forschungszentrum Öffentlichkeit und Gesellschaft (fög)"@de,
         "Research Center for the Public Sphere and Society (fög)"@en .
 

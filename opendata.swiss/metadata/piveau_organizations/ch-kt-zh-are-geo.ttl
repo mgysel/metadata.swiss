@@ -17,7 +17,7 @@ secteurs public et privé et des particuliers."""@fr,
         "Department of Geoinformation of the Canton of Zurich"@en,
         "Département de Géoinformation du Canton de Zurich"@fr,
         "Dipartimento della geoinformazione del Cantone di Zurigo"@it ;
-    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-zh-bau-are> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-zh-bd-are> ;
     foaf:homepage <https://www.zh.ch/gis> ;
     foaf:name "Geoinformation Kanton Zürich"@de,
         "Department of Geoinformation of the Canton of Zurich"@en,

@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/electronic-media-centre-dcat-harvester> a dcat:Catalog ;
@@ -10,12 +9,7 @@
         "Sis à Berne, le Centre des médias numériques de l’armée MNA est le centre de compétences pour les produits et services dans les domaines de la formation et de la communication."@fr,
         "Il Centro dei media digitali dell’esercito MDE, con sede a Berna, è il centro di competenza per i prodotti e le prestazioni nei settori dell'istruzione e della comunicazione."@it ;
     dcterms:modified "2024-06-03T09:14:31.835779"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://www.vtg.admin.ch/de/service/zem.html> ;
-            foaf:name "Zentrum digitale Medien der Armee DMA"@de,
-                "Armed Forces Digital Media Centre AFDM"@en,
-                "Centre des médias numériques de l’armée MNA"@fr,
-                "Centro dei media digitali dell’esercito MDE"@it ] ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-vbs-v-dma> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Zentrum digitale Medien der Armee DMA"@de,
         "Armed Forces Digital Media Centre AFDM"@en,

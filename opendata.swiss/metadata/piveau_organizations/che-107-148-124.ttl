@@ -9,6 +9,7 @@
     dcterms:identifier "CHE-107.148.124" ;
     skos:prefLabel "Kinder- & Jugendmedizin Köniz"@de ;
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0302> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-gde-koeniz> ;
     foaf:homepage <https://www.kjmk.ch> ;
     foaf:name "Kinder- & Jugendmedizin Köniz"@de .
 

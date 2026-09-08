@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/kt-lu-fd-steuern> a dcat:Catalog ;
@@ -14,12 +13,8 @@ The department comprises the following divisions: Securities and Withholding Tax
         """L'Office des impôts met en œuvre la législation fiscale. À cette fin, il met en place les conditions matérielles, techniques et organisationnelles nécessaires. L'accent est mis sur l'efficacité, la transparence et l'orientation client.\r
 \r
 L'Office comprend les divisions suivantes : Titres et impôt anticipé, Évaluation immobilière, Personnes physiques, Personnes morales, Services et Informatique."""@fr ;
-    dcterms:modified "2026-07-22T07:40:37.600786"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://steuern.lu.ch/> ;
-            foaf:name "Dienststelle Steuern"@de,
-                "Tax Department"@en,
-                "Office des impôts"@fr ] ;
+    dcterms:modified "2026-07-28T09:06:43.403623"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-kt-luzern-fd-steuern> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Dienststelle Steuern"@de,
         "Tax Department"@en,

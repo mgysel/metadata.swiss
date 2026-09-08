@@ -8,7 +8,7 @@
         "The main task of the FOCBS is to contribute to the safety and protection of the population, the economy, the Swiss state and the environment. The FOCBS employs around 4,500 people and is active at home, at the borders and abroad."@en,
         "L'OFDF est principalement chargé de la sécurité et de la protection de la population, de l'économie, de l'État ainsi que de l'environnement. L'OFDF emploie près de 4500 collaborateurs et accomplit ses tâches sur le territoire suisse, aux frontières et à l'étranger."@fr,
         "Il compito principale dell’UDSC è contribuire alla sicurezza e alla protezione della popolazione, dell’economia, dello Stato svizzero e dell’ambiente. L’UDSC occupa circa 4500 collaboratori, operativi in Svizzera, ai confini e all’estero."@it ;
-    dcterms:modified "2025-12-24T14:23:28.749538"^^xsd:dateTime ;
+    dcterms:modified "2026-08-11T13:44:05.102803"^^xsd:dateTime ;
     dcterms:publisher <https://opendata.swiss/id/organization/ch-bazg> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Bundesamt für Zoll und Grenzsicherheit BAZG"@de,

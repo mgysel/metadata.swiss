@@ -11,7 +11,7 @@
     skos:prefLabel "AREG (SG)"@de,
         "AREG (SG)"@fr ;
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
-    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-sg> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-sg-bau> ;
     foaf:homepage <https://www.sg.ch/bauen/raumentwicklung.html> ;
     foaf:name "Amt für Raumentwicklung und Geoinformation (SG)"@de,
         "Office d'aménagement du territoire et d'information géographique (SG)"@fr .

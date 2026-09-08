@@ -3,23 +3,35 @@
   "identifier": "CH_KT_SG_STAATSKANZLEI",
   "resource": "https://opendata.swiss/id/organization/ch-kt-sg-staatskanzlei",
   "classification": {
-    "id": "0220",
+    "id": "0221",
     "label": {
-      "de": "Verwaltungseinheit des Bundes",
-      "en": "Administrative unit of the Confederation",
-      "it": "Unità amministrativa della Confederazione",
-      "fr": "Unité de l'administration fédérale"
+      "de": "Verwaltungseinheit des Kantons",
+      "en": "Administrative unit of the canton",
+      "it": "Unità amministrativa del cantone",
+      "fr": "Unité de l'administration cantonale"
     },
-    "resource": "https://register.ld.admin.ch/i14y/concept/legalForm/0220"
+    "resource": "https://register.ld.admin.ch/i14y/concept/legalForm/0221"
   },
   "description": {
-    "de": "Die Staatskanzlei ist als Stabsstelle von Kantonsrat und Regierung die zentrale Schaltstelle in der kantonalen Staatsverwaltung. Die Staatskanzlei nimmt vielfältige Unterstützungs- und Koordinationsaufgaben wahr und verbindet die verschiedenen Akteure miteinander. Ob beratend, koordinierend oder federführend in gewissen Sachbereichen, die Staatskanzlei muss in ihrer Rolle immer durch Qualität, Verlässlichkeit und dienstleistungsorientierte Zusammenarbeit überzeugen. Dies bringt die Vision der Staatskanzlei auf den Punkt:  \n\n«Wir verbinden und überzeugen. Ihre Staatskanzlei.»\n\n"
+    "de": "Die Staatskanzlei ist als Stabsstelle von Kantonsrat und Regierung die zentrale Schaltstelle in der kantonalen Staatsverwaltung. Die Staatskanzlei nimmt vielfältige Unterstützungs- und Koordinationsaufgaben wahr und verbindet die verschiedenen Akteure miteinander. Ob beratend, koordinierend oder federführend in gewissen Sachbereichen, die Staatskanzlei muss in ihrer Rolle immer durch Qualität, Verlässlichkeit und dienstleistungsorientierte Zusammenarbeit überzeugen. Dies bringt die Vision der Staatskanzlei auf den Punkt:  \n\n«Wir verbinden und überzeugen. Ihre Staatskanzlei.»\n\n",
+    "en": "",
+    "fr": "",
+    "it": "",
+    "rm": ""
   },
   "name": {
-    "de": "Staatskanzlei (SG)"
+    "de": "Staatskanzlei (SG)",
+    "en": "",
+    "fr": "",
+    "it": "",
+    "rm": ""
   },
   "pref_label": {
-    "de": "Staatskanzlei (SG)"
+    "de": "Staatskanzlei (SG)",
+    "en": "",
+    "fr": "",
+    "it": "",
+    "rm": ""
   },
   "homepage": "https://www.sg.ch/politik-verwaltung/departemente-und-staatskanzlei/staatskanzlei.html",
   "hierarchy_level": 1,
@@ -28,16 +40,18 @@
     {
       "id": "ch-kt-sg",
       "name": {
-        "de": "Kanton St. Gallen (SG)",
+        "de": "Kanton St.Gallen",
         "en": "Kanton St. Gallen (SG)",
         "fr": "Canton de Saint-Gall (SG)",
-        "it": "Cantone di San Gallo (SG)"
+        "it": "Cantone di San Gallo (SG)",
+        "rm": ""
       },
       "pref_label": {
-        "de": "CH_KT_SG (ZH)",
-        "en": "CH_KT_SG (ZH)",
-        "fr": "CH_KT_SG (ZH)",
-        "it": "CH_KT_SG (ZH)"
+        "de": "SG",
+        "en": "SG",
+        "fr": "SG",
+        "it": "SG",
+        "rm": ""
       },
       "resource": "https://opendata.swiss/id/organization/ch-kt-sg",
       "hierarchy_level": 0

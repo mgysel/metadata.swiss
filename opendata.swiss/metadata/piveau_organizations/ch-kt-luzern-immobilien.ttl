@@ -12,12 +12,12 @@
         "Immobilier (LU)"@fr,
         "Immobiliare (LU)"@it ;
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
-    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern-fd> ;
     foaf:homepage <https://www.immobilien.lu.ch> ;
-    foaf:name "Dienststelle Immobilien Kanton Luzern"@de,
-        "Real Estate Office of the Canton of Lucerne"@en,
-        "Service immobilier du canton de Lucerne"@fr,
-        "Servizio immobiliare del Cantone di Lucerna"@it .
+    foaf:name "Dienststelle Immobilien (LU)"@de,
+        "Real Estate Office  (LU)"@en,
+        "Service immobilier  (LU)"@fr,
+        "Servizio immobiliare  (LU)"@it .
 
 <https://www.immobilien.lu.ch> a foaf:Document .
 

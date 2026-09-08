@@ -12,10 +12,10 @@
         "LU"@it ;
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
     foaf:homepage <https://www.lu.ch> ;
-    foaf:name "Kanton Luzern LU"@de,
-        "Canton Luzern LU"@en,
-        "Canton de Lucerne LU"@fr,
-        "Canton Lucerna LU"@it .
+    foaf:name "Kanton Luzern"@de,
+        "Canton Luzern"@en,
+        "Canton de Lucerne"@fr,
+        "Canton Lucerna"@it .
 
 <https://www.lu.ch> a foaf:Document .
 

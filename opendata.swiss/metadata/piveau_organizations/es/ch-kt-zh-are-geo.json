@@ -21,18 +21,62 @@
     "it": "Dipartimento della geoinformazione del Cantone di Zurigo"
   },
   "homepage": "https://www.zh.ch/gis",
-  "hierarchy_level": 1,
-  "sub_organization_of": "ch-kt-zh-bau-are",
+  "hierarchy_level": 3,
+  "sub_organization_of": "ch-kt-zh-bd-are",
   "ancestors": [
     {
-      "id": "ch-kt-zh-bau-are",
+      "id": "ch-kt-zh-bd-are",
       "name": {
-        "de": "Amt für Raumentwickung (ZH)"
+        "de": "Amt für Raumentwickung (ZH)",
+        "en": "",
+        "fr": "",
+        "it": "",
+        "rm": ""
       },
       "pref_label": {
-        "de": "Raumentwicklung (ZH)"
+        "de": "Raumentwicklung (ZH)",
+        "en": "",
+        "fr": "",
+        "it": "",
+        "rm": ""
       },
-      "resource": "https://opendata.swiss/id/organization/ch-kt-zh-bau-are",
+      "resource": "https://opendata.swiss/id/organization/ch-kt-zh-bd-are",
+      "hierarchy_level": 2
+    },
+    {
+      "id": "ch-kt-zh-bd",
+      "name": {
+        "de": "Baudirektion (ZH)",
+        "en": "",
+        "fr": "",
+        "it": "",
+        "rm": ""
+      },
+      "pref_label": {
+        "de": "Baudirektion (ZH)",
+        "en": "",
+        "fr": "",
+        "it": "",
+        "rm": ""
+      },
+      "resource": "https://opendata.swiss/id/organization/ch-kt-zh-bd",
+      "hierarchy_level": 1
+    },
+    {
+      "id": "ch-kt-zh",
+      "name": {
+        "de": "Kanton Zürich",
+        "en": "Canton Zurich",
+        "fr": "Canton Zurich",
+        "it": "Cantone Zurigo"
+      },
+      "pref_label": {
+        "de": "ZH",
+        "en": "ZH",
+        "fr": "ZH",
+        "it": "ZH"
+      },
+      "resource": "https://opendata.swiss/id/organization/ch-kt-zh",
       "hierarchy_level": 0
     }
   ]

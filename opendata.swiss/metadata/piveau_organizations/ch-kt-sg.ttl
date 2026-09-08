@@ -6,12 +6,16 @@
 <https://opendata.swiss/id/organization/ch-kt-sg> a org:Organization,
         foaf:Organization ;
     dcterms:identifier "CH_KT_SG" ;
-    skos:prefLabel "CH_KT_SG (ZH)"@de,
-        "CH_KT_SG (ZH)"@en,
-        "CH_KT_SG (ZH)"@fr,
-        "CH_KT_SG (ZH)"@it ;
-    foaf:name "Kanton St. Gallen (SG)"@de,
+    skos:prefLabel "SG"@de,
+        "SG"@en,
+        "SG"@fr,
+        "SG"@it ;
+    org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
+    foaf:homepage <https://sg.ch> ;
+    foaf:name "Kanton St.Gallen"@de,
         "Kanton St. Gallen (SG)"@en,
         "Canton de Saint-Gall (SG)"@fr,
         "Cantone di San Gallo (SG)"@it .
+
+<https://sg.ch> a foaf:Document .
 

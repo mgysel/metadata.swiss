@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/kt-lu-buwd-departementssekretariat-geocat> a dcat:Catalog ;
@@ -14,12 +13,8 @@ The Departmental Secretariat comprises the divisions of Administration, Finance 
         """Le Secrétariat du Département est l'organe d'état-major du Département des travaux publics, de l'environnement et de l'économie. Il assiste la direction du département dans la conduite politique, stratégique et opérationnelle, assure la gestion administrative du département et coordonne les activités administratives tant au sein du département qu'à l'extérieur.\r
 \r
 Le secrétariat du département comprend les services suivants : administration, finances et contrôle de gestion, numérisation et informatique, communication, politique et stratégie, ainsi que le service juridique."""@fr ;
-    dcterms:modified "2026-07-22T06:53:51.880991"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://www.lu.ch/verwaltung/BUWD/buwd_dienststellen/buwd_departementssekretariat> ;
-            foaf:name "Departementssekretariat BUWD"@de,
-                "Departmental Secretariat BUWD"@en,
-                "Secrétariat du Département BUWD"@fr ] ;
+    dcterms:modified "2026-08-10T10:02:59.821703"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-buwd-buwd-sek> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Departementssekretariat BUWD"@de,
         "Departmental Secretariat BUWD"@en,
