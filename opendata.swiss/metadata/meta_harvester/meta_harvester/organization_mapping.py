@@ -126,6 +126,44 @@ CKAN_TO_I14Y_ORG_MAPPING: dict[str, str] = {
     "wsl": "ch-wsl",
     "awel-kanton-zuerich": "ch-kt-zh-bau-awel",
     "zb_zuerich": "ch-kt-zh-zb",
+    "immobilien-lu": "ch-kt-luzern-immobilien",
+    "staatskanzlei-luzern": "ch-kt-luzern-staatskanzlei",
+
+    ###  missing mappings
+    # "agis_service_center": "",  # https://opendata.swiss/id/catalogue/aargau-kt
+    # "amt-fuer-geoinformation-des-kantons-bern": "",  # https://opendata.swiss/id/catalogue/bern-kt
+    # "afm-kanton-zuerich": "",  # https://opendata.swiss/id/catalogue/dcat-harvester-amt-fur-mobilitat-kanton-zurich
+    # "amt-fuer-statistik-fl": "",  # https://opendata.swiss/id/catalogue/dcat-harvester-amt-fur-statistik-fl
+    # "materialscloud": "",  # https://opendata.swiss/id/catalogue/dcat-harvester-materials-cloud
+    # "psi_data_catalog": "",  # https://opendata.swiss/id/catalogue/dcat-harvester-scicat
+    # "envidat": "",  # https://opendata.swiss/id/catalogue/envidat-harvester
+    # "cern": "",  # https://opendata.swiss/id/catalogue/geocat-cern
+    # "fti-ge": "",  # https://opendata.swiss/id/catalogue/geocat-fti-geneve
+    # "geneve-aeroport": "",  # https://opendata.swiss/id/catalogue/geocat-geneve-aeroport
+    # "services-industriels-geneve": "",  # https://opendata.swiss/id/catalogue/geocat-sig-geneve
+    # "tpg": "",  # https://opendata.swiss/id/catalogue/geocat-tpg-geneve
+    # "kof-konjunkturforschungsstelle": "",  # https://opendata.swiss/id/catalogue/kof-harvester
+    # "bkd-kultur": "",  # https://opendata.swiss/id/catalogue/kt-lu-bkd-kultur
+    # "buwd-departementssekretariat": "",  # https://opendata.swiss/id/catalogue/kt-lu-buwd-departementssekretariat-geocat
+    # "jsd-handelsregister-und-staatsarchiv": "",  # https://opendata.swiss/id/catalogue/kt-lu-dhs
+    # "gsd-gesundheit": "",  # https://opendata.swiss/id/catalogue/kt-lu-dige
+    # "fd-steuern": "",  # https://opendata.swiss/id/catalogue/kt-lu-fd-steuern
+    # "jsd-gvl": "",  # https://opendata.swiss/id/catalogue/kt-lu-gvl
+    # "buwd-lawa": "",  # https://opendata.swiss/id/catalogue/kt-lu-lawa
+    # "lu-mzj": "",  # https://opendata.swiss/id/catalogue/kt-lu-mzj
+    # "buwd-rawi": "",  # https://opendata.swiss/id/catalogue/kt-lu-rawi
+    # "buwd-uwe": "",  # https://opendata.swiss/id/catalogue/kt-lu-uwe
+    # "buwd-vif": "",  # https://opendata.swiss/id/catalogue/kt-lu-vif
+    # "buwd-vvl": "",  # https://opendata.swiss/id/catalogue/kt-lu-vvl    
+    # "amt-fuer-raumentwicklung-und-geoinformation-areg-kanton-st-gallen": "",  # https://opendata.swiss/id/catalogue/sg-kt-areg
+    # "basisdaten-biel-bienne": "",  # https://opendata.swiss/id/catalogue/stadt-biel-bienne-basisdaten
+    # "leben-in-biel-bienne": "",  # https://opendata.swiss/id/catalogue/stadt-biel-bienne-leben-in-biel
+    # "planung-umwelt-biel-bienne": "",  # https://opendata.swiss/id/catalogue/stadt-biel-bienne-planung, https://opendata.swiss/id/catalogue/stadt-biel-bienne-umwelt
+    # "amt-geoinformation-sz": "",  # https://opendata.swiss/id/catalogue/sz-kt-geoinformation
+    # "geoinformation-kanton-uri": "",  # https://opendata.swiss/id/catalogue/uri-kt
+    # "are-kanton-zuerich": "",  # https://opendata.swiss/id/catalogue/zh-kt-are-dcat-harvester
+    # "finanzverwaltung-kanton-zuerich": "",  # https://opendata.swiss/id/catalogue/zh-kt-finanzverwaltung-dcat-harvester
+    # "gesundheitsdirektion-kanton-zuerich": "",  # https://opendata.swiss/id/catalogue/zh-kt-gesundheitsdirektion-dcat-harvester
 }
 
 
