@@ -11,6 +11,7 @@
         "I14Y Test Organisation_fr"@fr,
         "I14Y Test Organisation_it"@it,
         "I14Y Test Organisation_rm"@rm ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch1> ;
     foaf:name "I14Y Test Organisation_de"@de,
         "I14Y Test Organisation_en"@en,
         "I14Y Test Organisation_fr"@fr,

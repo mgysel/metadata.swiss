@@ -1,0 +1,29 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-kt-lu-justiz-mzj> a org:Organization,
+        foaf:Organization ;
+    dcterms:description """Die Dienststelle Militär, Zivilschutz und Justizvollzug ist eine Leistungserbringerin für die öffentliche Sicherheit und stellt die gesetzlich geforderten Aufgaben zugunsten der Armee, des Zivilschutzes, des Justizvollzuges sicher.
+
+Die Dienststelle umfasst die Abteilungen Militär, Zivilschutz, Bevölkerungsschutz/KFS, Vollzugs- und Bewährungsdienst, die Justizvollzugsanstalt Grosshof sowie die Justizvollzugsanstalt Wauwilermoos."""@de,
+        """The Department of Military, Civil Defense, and Execution of Penal Sentences and Justice is a service provider for public safety and carries out the tasks required by law on behalf of the armed forces, civil defense, and the corrections system.
+
+The department comprises the Military, Civil Defense, Civil Protection/KFS, and Corrections and Probation divisions, as well as the Grosshof Correctional Facility and the Wauwilermoos Correctional Facility.
+"""@en,
+        """L'Office des affaires militaires, de la protection civile et de l'exécution des peines est un prestataire de services dans le domaine de la sécurité publique et assure les missions prévues par la loi au profit de l'armée, de la protection civile et de l'exécution des peines.
+
+L'Office comprend les divisions suivantes : affaires militaires, protection civile, protection de la population/KFS, service d'exécution des peines et de probation, ainsi que les établissements pénitentiaires de Grosshof et de Wauwilermoos."""@fr ;
+    dcterms:identifier "CH_KT_LU_JUSTIZ_MZJ" ;
+    skos:prefLabel "Dienststelle Militär, Zivilschutz und Justizvollzug, Zivilschutz (LU)"@de,
+        "Department of Military, Civil Defense, and Execution of Penal Sentences and Justice (LU)"@en,
+        "Office des affaires militaires, de la protection civile et de l'exécution des peines (LU)"@fr ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern-jsd> ;
+    foaf:homepage <https://mzj.lu.ch/> ;
+    foaf:name "Dienststelle Militär, Zivilschutz und Justizvollzug, Zivilschutz (LU)"@de,
+        "Department of Military, Civil Defense, and Execution of Penal Sentences and Justice (LU)"@en,
+        "Office des affaires militaires, de la protection civile et de l'exécution des peines (LU)"@fr .
+
+<https://mzj.lu.ch/> a foaf:Document .
+

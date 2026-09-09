@@ -1,0 +1,32 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-jsd-handelsregister> a org:Organization,
+        foaf:Organization ;
+    dcterms:description """Die Dienststelle setzt sich zusammen aus den Abteilungen Handelsregister und Staatsarchiv. 
+
+Das Handelsregister ist eine öffentliche Quelle für wirtschaftliche Informationen über Unternehmen. Es dient in erster Linie der Rechtssicherheit im Geschäftsverkehr und dem Vertrauensschutz (Publizitätsfunktion).
+
+Das Staatsarchiv sichert einzigartiges Kulturgut und stellt dieses zur Erforschung der Geschichte des Kantons, seiner Gemeinden, Körperschaften, Firmen, Vereinen, Verbänden, Parteien der Bewohnerinnen und Bewohner aus fast 1000 Jahren bereit. Die Benutzung dieses Archivguts steht Personen offen. Das Archiv berät die kantonale Verwaltung, weltliche und kirchliche Gemeinden bei der Verwaltung ihrer Unterlagen und unterstützt sie bei der Vorbereitung von Ablieferungen. Es leistet damit einen Beitrag zur Rechtsstaatlichkeit.
+"""@de,
+        """The department consists of the Commercial Register and State Archives divisions.
+
+The Commercial Register is a public source of economic information about companies. Its primary purpose is to ensure legal certainty in business transactions and to protect legitimate expectations (publicity function)."""@en,
+        """L'office se compose des départements du registre du commerce et des archives d'État.
+
+Le registre du commerce est une source publique d'informations économiques sur les entreprises. Il sert avant tout à garantir la sécurité juridique dans les relations commerciales et à protéger la confiance légitime (fonction de publicité)."""@fr ;
+    dcterms:identifier "CH_JSD_HANDELSREGISTER" ;
+    skos:prefLabel "Dienststelle Handelsregister und Staatsarchiv (LU)"@de,
+        "Department of Commercial Register and State Archives (LU)"@en,
+        "Office du registre du commerce et des archives d'État (LU)"@fr ;
+    org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern-jsd> ;
+    foaf:homepage <https://handelsregister.lu.ch> ;
+    foaf:name "Dienststelle Handelsregister und Staatsarchiv (LU)"@de,
+        "Department of Commercial Register and State Archives (LU)"@en,
+        "Office du registre du commerce et des archives d'État (LU)"@fr .
+
+<https://handelsregister.lu.ch> a foaf:Document .
+

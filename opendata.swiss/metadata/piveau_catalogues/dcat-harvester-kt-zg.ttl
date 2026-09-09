@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/dcat-harvester-kt-zg> a dcat:Catalog ;
@@ -9,13 +8,8 @@
 \r
 Weitere Informationen unter https://zg.ch/opendata\r
 """@de ;
-    dcterms:modified "2026-02-03T07:12:02.086735"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <> ;
-            foaf:name "Kanton Zug"@de,
-                "Canton of Zug"@en,
-                "Canton de Zoug"@fr,
-                "Cantone di Zugo"@it ] ;
+    dcterms:modified "2026-08-10T09:44:28.527047"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-kt-zug> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Kanton Zug"@de,
         "Canton of Zug"@en,

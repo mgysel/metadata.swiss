@@ -14,10 +14,10 @@
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
     org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern> ;
     foaf:homepage <https://www.lu.ch/verwaltung/staatskanzlei> ;
-    foaf:name "Staatskanzlei des Kantons Luzern"@de,
-        "State Chancellery of the Canton of Lucerne"@en,
-        "Chancellerie d'État du canton de Lucerne"@fr,
-        "Cancelleria di Stato del Cantone di Lucerna"@it .
+    foaf:name "Staatskanzlei (LU)"@de,
+        "State Chancellery  (LU)"@en,
+        "Chancellerie d'État  (LU)"@fr,
+        "Cancelleria di Stato  (LU)"@it .
 
 <https://www.lu.ch/verwaltung/staatskanzlei> a foaf:Document .
 

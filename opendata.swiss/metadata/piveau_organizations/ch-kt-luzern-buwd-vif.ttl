@@ -1,0 +1,24 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-kt-luzern-buwd-vif> a org:Organization,
+        foaf:Organization ;
+    dcterms:description """Die Dienststelle Verkehr und Infrastruktur (vif) stellt die Mobilität der Bevölkerung und Wirtschaft sicher. Sie ist verantwortlich für Planung, Bau, Betrieb und Werterhaltung von Kantonsstrassen und sorgt für Verbesserungen der Infrastrukturen für den öffentlichen Verkehr sowie den Fuss- und Veloverkehr. Zudem gehört der Schutz von Menschen, Tieren und Sachwerten vor Hochwassergefahren zum Grundauftrag der Dienststelle.
+
+Die Dienststelle umfasst die Abteilungen Mobilität, Planung Strassen, Realisierung Strassen, zentras - Betrieb Strassen, Naturgefahren sowie Zentrale Dienste und Finanzen."""@de,
+        "The Department of Traffic and Infrastructure (vif) ensures mobility for residents and businesses. It is responsible for the planning, construction, operation, and maintenance of cantonal roads and works to improve infrastructure for public transportation, as well as for pedestrians and cyclists. In addition, protecting people, animals, and property from flood hazards is part of the agency’s core mission."@en,
+        "L'Office de la circulation et de l'infrastructure (vif) assure la mobilité de la population et des entreprises. Il est chargé de la planification, de la construction, de l'exploitation et de l'entretien des routes cantonales et veille à l'amélioration des infrastructures destinées aux transports publics, ainsi qu'aux piétons et aux cyclistes. La protection des personnes, des animaux et des biens contre les risques d'inondation fait également partie de la mission fondamentale du service."@fr ;
+    dcterms:identifier "CH_KT_LUZERN_BUWD_VIF" ;
+    skos:prefLabel "Dienststelle Verkehr und Infrastruktur (LU)"@de,
+        "Department of Traffic and Infrastructure (LU)"@en,
+        "Office de la circulation et de l'infrastructure (LU)"@fr ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern-buwd> ;
+    foaf:homepage <https://vif.lu.ch/> ;
+    foaf:name "Dienststelle Verkehr und Infrastruktur (LU)"@de,
+        "Department of Traffic and Infrastructure (LU)"@en,
+        "Office de la circulation et de l'infrastructure (LU)"@fr .
+
+<https://vif.lu.ch/> a foaf:Document .
+

@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/kt-lu-lawa> a dcat:Catalog ;
@@ -14,12 +13,8 @@ The department comprises the divisions of Agriculture, Forestry, Nature, Hunting
         """L'office de l'agriculture et des forêts soutient les exploitations agricoles et forestières et crée des conditions-cadres plus favorables à la production primaire. Il œuvre en faveur d'espaces ruraux riches en biodiversité et proches de la nature, et veille à l'exploitation durable des droits de pêche et de chasse appartenant à l'État.\r
 \r
 Le Service comprend les départements de l'agriculture, des forêts, de la nature, de la chasse et de la pêche, ainsi que les services centraux."""@fr ;
-    dcterms:modified "2026-07-22T07:39:28.217755"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://lawa.lu.ch/> ;
-            foaf:name "Dienststelle Landwirtschaft und Wald"@de,
-                "Department of Agriculture and Forestry"@en,
-                "Office de l'agriculture et des forêts"@fr ] ;
+    dcterms:modified "2026-07-28T09:08:01.535574"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-buwd-lawa> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Dienststelle Landwirtschaft und Wald"@de,
         "Department of Agriculture and Forestry"@en,

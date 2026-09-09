@@ -8,7 +8,7 @@
         "The State Secretariat for Education, Research and Innovation SERI within the Federal Department of Economic Affairs, Education and Research EAER is the federal government's specialised agency for national and international matters concerning education, research and innovation policy."@en,
         "Le Secrétariat d'État à la formation, à la recherche et à l'innovation SEFRI dans le Département fédéral de l'économie, de la formation et de la recherche DEFR est le centre de compétences de la Confédération pour les questions de portée nationale ou internationale relevant de la politique de formation, de recherche et d'innovation."@fr,
         "La Segreteria di Stato per la formazione, la ricerca e l'innovazione SEFRI nel Dipartimento federale dell'economia, della formazione e della ricerca DEFR è il centro di competenza della Confederazione per le questioni nazionali e internazionali connesse alla politica in materia di formazione, ricerca e innovazione."@it ;
-    dcterms:modified "2026-03-24T10:41:31.231467"^^xsd:dateTime ;
+    dcterms:modified "2026-08-10T09:40:58.443836"^^xsd:dateTime ;
     dcterms:publisher <https://opendata.swiss/id/organization/ch-sbfi> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Staatssekretariat für Bildung, Forschung und Innovation SBFI"@de,

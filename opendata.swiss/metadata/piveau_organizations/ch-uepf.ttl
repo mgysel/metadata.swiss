@@ -11,7 +11,7 @@
         "SCPT"@fr,
         "SCPT"@it ;
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0220> ;
-    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-gs-ejpd> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-ejpd-isc> ;
     foaf:homepage <https://www.li.admin.ch> ;
     foaf:name "Dienst Überwachung Post- und Fernmeldeverkehr (ÜPF)"@de,
         "Post and Telecommunications Surveillance Service (PTSS)"@en,

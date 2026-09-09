@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/i14y-dcat-immobilien-kt-lu> a dcat:Catalog ;
@@ -15,12 +14,8 @@ The office comprises the departments of Portfolio Management, Construction Manag
         """L'Office de l'immobilier est le centre de compétences en matière immobilière du canton de Lucerne. En tant que propriétaire et maître d'ouvrage, il défend les intérêts du canton de Lucerne et met en œuvre une gestion immobilière innovante et durable.\r
 \r
 L'Office comprend les départements Gestion de portefeuille, Direction des travaux, Exploitation et Services centraux."""@fr ;
-    dcterms:modified "2026-07-22T07:42:29.063159"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://immobilien.lu.ch/> ;
-            foaf:name "Dienststelle Immobilien"@de,
-                "Department of Real Estate"@en,
-                "Office de l'immobilier"@fr ] ;
+    dcterms:modified "2026-07-28T09:05:20.064128"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-kt-luzern-immobilien> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Dienststelle Immobilien"@de,
         "Department of Real Estate"@en,

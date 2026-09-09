@@ -1,0 +1,19 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-kt-be-parl> a org:Organization,
+        foaf:Organization ;
+    dcterms:description "Die Parlamentsdienste unterstützen den Grossen Rat bei der parlamentarischen Arbeit. Sie sind ihm und seinen Organen verantwortlich und arbeiten nach deren Weisungen."@de,
+        "Les Services parlementaires assistent le Grand Conseil dans son travail. Ils lui rendent compte ainsi qu’à ses organes et travaillent selon leurs instructions."@fr ;
+    dcterms:identifier "CH_KT_BE_PARL" ;
+    skos:prefLabel "PARL (BE)"@de,
+        "PARL (BE)"@fr ;
+    org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
+    foaf:homepage <https://www.gr.be.ch/de/start/parlamentsdienste.html> ;
+    foaf:name "Parlamentsdienste (BE)"@de,
+        "Services parlementaires (BE)"@fr .
+
+<https://www.gr.be.ch/de/start/parlamentsdienste.html> a foaf:Document .
+

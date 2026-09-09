@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-kt-luzern-buwd-rawi> a org:Organization,
+        foaf:Organization ;
+    dcterms:description """Die Dienststelle Raum und Wirtschaft gestaltet die räumliche und wirtschaftliche Entwicklung im Kanton Luzern. Sie unterstützt Gemeinden, Wirtschaft und Bevölkerung mit Geoinformationen, koordiniert Baubewilligungen und erarbeitet gemeinsam mit Partnern zukunftsfähige Lösungen.
+
+Die Dienststelle umfasst die Abteilungen Baubewilligungen, Geoinformation, Raumentwicklung, Wirtschaftsentwicklung sowie Digitalisierung, Innovation und Services."""@de,
+        """The Department of Spatial Planning and Economy shapes spatial and economic development in the Canton of Lucerne. It supports municipalities, businesses, and residents with geoinformation, coordinates building permits, and works with partners to develop sustainable solutions.
+
+The office comprises the departments of Building Permits, Geoinformation, Spatial Development, Economic Development, and Digitalization, Innovation, and Services."""@en,
+        """L'office du territoire et de l'économie pilote le développement territorial et économique du canton de Lucerne. Il apporte son soutien aux communes, aux acteurs économiques et à la population grâce à des informations géospatiales, coordonne les permis de construire et élabore, en collaboration avec ses partenaires, des solutions tournées vers l'avenir.
+
+Le service comprend les divisions suivantes : Permis de construire, Information géospatiale, Développement territorial, Développement économique, ainsi que Numérisation, Innovation et Services."""@fr ;
+    dcterms:identifier "CH_KT_LUZERN_BUWD_RAWI" ;
+    skos:prefLabel "Dienststelle Raum und Wirtschaft (LU)"@de,
+        "Department of Spatial Planning and Economy (LU)"@en,
+        "Office du territoire et de l'économie (LU)"@fr ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-luzern-buwd> ;
+    foaf:homepage <https://rawi.lu.ch/> ;
+    foaf:name "Dienststelle Raum und Wirtschaft (LU)"@de,
+        "Department of Spatial Planning and Economy (LU)"@en,
+        "Office du territoire et de l'économie (LU)"@fr .
+
+<https://rawi.lu.ch/> a foaf:Document .
+

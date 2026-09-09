@@ -24,6 +24,25 @@
     "fr": "SNS",
     "it": "SDS"
   },
-  "hierarchy_level": 0,
-  "ancestors": []
+  "hierarchy_level": 1,
+  "sub_organization_of": "ch-bk",
+  "ancestors": [
+    {
+      "id": "ch-bk",
+      "name": {
+        "de": "Schweizerische Bundeskanzlei (BK)",
+        "en": "Swiss Federal Chancellery (FCh)",
+        "fr": "Chancellerie fédérale (ChF)",
+        "it": "Cancelleria federale (CaF)"
+      },
+      "pref_label": {
+        "de": "BK",
+        "en": "CCh",
+        "fr": "ChF",
+        "it": "CaF"
+      },
+      "resource": "https://opendata.swiss/id/organization/ch-bk",
+      "hierarchy_level": 0
+    }
+  ]
 }

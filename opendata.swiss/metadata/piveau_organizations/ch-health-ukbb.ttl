@@ -1,0 +1,25 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-health-ukbb> a org:Organization,
+        foaf:Organization ;
+    dcterms:description "Im UKBB stehen Kinder und ihre Familien im Mittelpunkt – kompetent und menschlich betreut, vom Notfall bis zur Spezialsprechstunde."@de,
+        "At UKBB, children and their families are the centre of attention - competently and humanely cared for, from emergencies to special consultations."@en,
+        "À l'UKBB, les enfants et leurs familles sont au centre de l'attention, avec une prise en charge compétente et humaine, des urgences aux consultations spécialisées."@fr,
+        "All'UKBB, i bambini e le loro famiglie sono al centro dell'attenzione, assistiti con competenza e umanità, dalle emergenze alle consulenze speciali."@it ;
+    dcterms:identifier "CH_HEALTH_UKBB" ;
+    skos:prefLabel "UKBB (BS/BL)"@de,
+        "UKBB (BS/BL)"@en,
+        "UKBB (BS/BL)"@fr,
+        "UKBB (BS/BL)"@it ;
+    org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0117> ;
+    foaf:homepage <https://www.ukbb.ch> ;
+    foaf:name "Universitäts-Kinderspital beider Basel (UKBB)"@de,
+        "University Children's Hospital Basel (UKBB)"@en,
+        "Hôpital pédiatrique universitaire des deux Bâle (UKBB) "@fr,
+        "Ospedale pediatrico universitario di Basilea (UKBB) "@it .
+
+<https://www.ukbb.ch> a foaf:Document .
+

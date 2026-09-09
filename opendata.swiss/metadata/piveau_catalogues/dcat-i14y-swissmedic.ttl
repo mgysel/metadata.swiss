@@ -18,7 +18,7 @@ Contrairement aux médicaments, les dispositifs médicaux ne sont soumis à aucu
         """Swissmedic è l’autorità centrale svizzera di omologazione e controllo per gli agenti terapeutici. L’attività di Swissmedic si basa sul diritto degli agenti terapeutici.\r
 \r
 Diversamente dai medicamenti, i dispositivi medici non sono sottoposti ad alcuna omologazione ufficiale. L’attività di Swissmedic nel campo dei dispositivi medici si concentra quindi sulla sorveglianza efficiente del mercato."""@it ;
-    dcterms:modified "2025-11-12T12:08:05.300140"^^xsd:dateTime ;
+    dcterms:modified "2026-08-11T13:41:49.910658"^^xsd:dateTime ;
     dcterms:publisher <https://opendata.swiss/id/organization/ch-swissmedic> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Swissmedic Schweizerisches Heilmittelinstitut"@de,

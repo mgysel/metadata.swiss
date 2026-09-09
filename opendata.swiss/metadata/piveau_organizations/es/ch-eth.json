@@ -16,21 +16,45 @@
     "de": "Die Eidgenössische Technische Hochschule Zürich (ETH Zürich) ist eine Hochschule mit technisch-naturwissenschaftlichem Fokus in Zürich.",
     "en": "The Swiss Federal Institute of Technology in Zurich (ETH Zurich) is a university with a technical and scientific focus in Zurich.",
     "fr": "L'École polytechnique fédérale de Zurich (EPFZ) est une haute école spécialisée dans les sciences techniques et naturelles située à Zurich.",
-    "it": "Il Politecnico federale di Zurigo (ETH Zurigo) è un'università a indirizzo tecnico-scientifico con sede a Zurigo."
+    "it": "Il Politecnico federale di Zurigo (ETH Zurigo) è un'università a indirizzo tecnico-scientifico con sede a Zurigo.",
+    "rm": ""
   },
   "name": {
     "de": "ETH Zürich",
     "en": "ETH Zürich",
     "fr": "ETH Zürich",
-    "it": "ETH Zürich"
+    "it": "ETH Zürich",
+    "rm": ""
   },
   "pref_label": {
     "de": "ETH Zürich",
     "en": "ETH Zürich",
     "fr": "ETH Zürich",
-    "it": "ETH Zürich"
+    "it": "ETH Zürich",
+    "rm": ""
   },
   "homepage": "https://www.ethz.ch",
-  "hierarchy_level": 0,
-  "ancestors": []
+  "hierarchy_level": 1,
+  "sub_organization_of": "ch-eth-domain",
+  "ancestors": [
+    {
+      "id": "ch-eth-domain",
+      "name": {
+        "de": "ETH-Bereich",
+        "en": "ETH Domain",
+        "fr": "Domaine des EPF",
+        "it": "Settore dei PF",
+        "rm": ""
+      },
+      "pref_label": {
+        "de": "ETH-Bereich",
+        "en": "ETH Domain",
+        "fr": "Domaine des EPF",
+        "it": "Settore dei PF",
+        "rm": ""
+      },
+      "resource": "https://opendata.swiss/id/organization/ch-eth-domain",
+      "hierarchy_level": 0
+    }
+  ]
 }

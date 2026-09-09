@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/dcat-bag-idd-harvester> a dcat:Catalog ;
@@ -10,12 +9,7 @@
         "Les maladies transmissibles constituent une menace pour la santé publique. La division les surveille, publie régulièrement des rapports sur la situation épidémiologique, définit des stratégies de prévention et de contrôle, et les met en œuvre."@fr,
         "Le malattie trasmissibili mettono in pericolo la salute pubblica. La divisione Malattie trasmissibili le monitora, pubblica regolarmente rapporti sulla situazione epidemiologica, stabilisce strategie di prevenzione e di controllo e le attua."@it ;
     dcterms:modified "2024-11-18T14:55:13.039666"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://www.bag.admin.ch/> ;
-            foaf:name "Abteilung Übertragbare Krankheiten"@de,
-                "Communicable Diseases Division"@en,
-                "Division Maladies transmissibles"@fr,
-                "Divisione Malattie trasmissibili"@it ] ;
+    dcterms:publisher <https://opendata.swiss/id/organization/abteilung-uebertragbare-krankheiten> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Abteilung Übertragbare Krankheiten"@de,
         "Communicable Diseases Division"@en,

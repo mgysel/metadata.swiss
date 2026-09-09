@@ -12,10 +12,10 @@
         "GL"@it ;
     org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
     foaf:homepage <https://www.gl.ch> ;
-    foaf:name "Kanton Glarus GL"@de,
-        "Canton Glarus GL"@en,
-        "Canton de Glaris GL"@fr,
-        "Canton Glarona GL"@it .
+    foaf:name "Kanton Glarus"@de,
+        "Canton Glarus"@en,
+        "Canton de Glaris"@fr,
+        "Canton Glarona"@it .
 
 <https://www.gl.ch> a foaf:Document .
 

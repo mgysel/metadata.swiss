@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/zh-dcat-harvester> a dcat:Catalog ;
@@ -12,12 +11,7 @@
 La città di Zurigo dispone parallelamente di un proprio portale Open Data, sul quale sono disponibili anche istruzioni e documentazioni per contestualizzare i datasets.\r
 A parte poche eccezioni tutte le datasets della città di Zurigo hanno una licenza «Creative Commons Zero»."""@it ;
     dcterms:modified "2021-06-14T11:49:45.231303"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <http://www.stadt-zuerich.ch/opendata> ;
-            foaf:name "Stadt Zürich"@de,
-                "City of Zurich"@en,
-                "Ville de Zurich"@fr,
-                "Cità di Zurigo"@it ] ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-gde-zurich> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Stadt Zürich"@de,
         "City of Zurich"@en,

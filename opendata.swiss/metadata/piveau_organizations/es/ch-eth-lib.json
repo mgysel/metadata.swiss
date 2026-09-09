@@ -31,7 +31,7 @@
     "it": "ETH"
   },
   "homepage": "https://library.ethz.ch/",
-  "hierarchy_level": 1,
+  "hierarchy_level": 2,
   "sub_organization_of": "ch-eth",
   "ancestors": [
     {
@@ -40,15 +40,36 @@
         "de": "ETH Zürich",
         "en": "ETH Zürich",
         "fr": "ETH Zürich",
-        "it": "ETH Zürich"
+        "it": "ETH Zürich",
+        "rm": ""
       },
       "pref_label": {
         "de": "ETH Zürich",
         "en": "ETH Zürich",
         "fr": "ETH Zürich",
-        "it": "ETH Zürich"
+        "it": "ETH Zürich",
+        "rm": ""
       },
       "resource": "https://opendata.swiss/id/organization/ch-eth",
+      "hierarchy_level": 1
+    },
+    {
+      "id": "ch-eth-domain",
+      "name": {
+        "de": "ETH-Bereich",
+        "en": "ETH Domain",
+        "fr": "Domaine des EPF",
+        "it": "Settore dei PF",
+        "rm": ""
+      },
+      "pref_label": {
+        "de": "ETH-Bereich",
+        "en": "ETH Domain",
+        "fr": "Domaine des EPF",
+        "it": "Settore dei PF",
+        "rm": ""
+      },
+      "resource": "https://opendata.swiss/id/organization/ch-eth-domain",
       "hierarchy_level": 0
     }
   ]

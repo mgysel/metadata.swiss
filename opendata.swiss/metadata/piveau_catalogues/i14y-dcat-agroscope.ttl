@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/i14y-dcat-agroscope> a dcat:Catalog ;
@@ -17,13 +16,8 @@ L‘activité de recherche d'Agroscope s'étend à toute la chaîne de création
         """Agroscope è il centro di competenza della Confederazione per la ricerca agronomica ed è aggregato all'Ufficio federale dell'agricoltura (UFAG). Agroscope fornisce un contributo significativo per una filiera agroalimentare sostenibile e un ambiente incontaminato, concorrendo a migliorare la qualità della vita.\r
 \r
 La ricerca contempla l'intera catena del valore della filiera agroalimentare, avendo come obiettivi un'agricoltura multifunzionale e competitiva, derrate alimentari d'alta qualità per un'alimentazione sana e un ambiente incontaminato. Al contempo, l'istituto di ricerca si concentra sulle esigenze dei destinatari delle proprie prestazioni."""@it ;
-    dcterms:modified "2026-06-18T14:35:59.741437"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://www.agroscope.admin.ch/agroscope/de/home.html> ;
-            foaf:name "Agroscope"@de,
-                "Agroscope"@en,
-                "Agroscope"@fr,
-                "Agroscope"@it ] ;
+    dcterms:modified "2026-08-11T13:04:13.206288"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-agroscope> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Agroscope"@de,
         "Agroscope"@en,

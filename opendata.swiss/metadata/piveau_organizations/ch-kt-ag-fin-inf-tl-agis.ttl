@@ -1,0 +1,14 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opendata.swiss/id/organization/ch-kt-ag-fin-inf-tl-agis> a org:Organization,
+        foaf:Organization ;
+    dcterms:description "Das AGIS Service Center unterstützt als kantonale Koordinationsstelle die Bereitstellung von Geoinformationen und Metadaten der kantonalen Verwaltung. Die zuständigen kantonalen Fachstellen stellen die öffentlichen Geodaten des Kantons Aargau mittels der Infrastruktur des AGIS Service Center in der Informatik Aargau als Webservices und zum Download bereit."@de ;
+    dcterms:identifier "CH_KT_AG_FIN_INF_TL_AGIS" ;
+    skos:prefLabel "AGIS (AG)"@de ;
+    org:classification <https://register.ld.admin.ch/i14y/concept/legalForm/0221> ;
+    org:subOrganizationOf <https://opendata.swiss/id/organization/ch-kt-ag-fin-inf-tl> ;
+    foaf:name "AGIS Service Center (AG)"@de .
+

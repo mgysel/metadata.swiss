@@ -25,24 +25,39 @@
     "it": "SCPT"
   },
   "homepage": "https://www.li.admin.ch",
-  "hierarchy_level": 1,
-  "sub_organization_of": "ch-gs-ejpd",
+  "hierarchy_level": 2,
+  "sub_organization_of": "ch-ejpd-isc",
   "ancestors": [
     {
-      "id": "ch-gs-ejpd",
+      "id": "ch-ejpd-isc",
       "name": {
-        "de": "Generalsekretariat Eidgenössisches Justiz- und Polizeidepartement (GS-EJPD)",
-        "en": "General Secretariat Federal Department of Justice and Police (GS-FDJP)",
-        "fr": "Secrétariat général Département fédéral de justice et police (SG-DFJP)",
-        "it": "Segreteria generale Dipartimento federale di giustizia e polizia (SG-DFGP)"
+        "de": "Informatik Service Center ISC-EJPD",
+        "fr": "Centre de services informatiques (CSI-DFJP)",
+        "it": "Centro servizi informatici (CSI-DFGP)"
       },
       "pref_label": {
-        "de": "GS-EJPD",
-        "en": "GS-FDJP",
-        "fr": "SG-DFJP",
-        "it": "SG-DFGP"
+        "de": "ISC-EJPD",
+        "fr": "CSI_DFJP",
+        "it": "CSI-DFGP"
       },
-      "resource": "https://opendata.swiss/id/organization/ch-gs-ejpd",
+      "resource": "https://opendata.swiss/id/organization/ch-ejpd-isc",
+      "hierarchy_level": 1
+    },
+    {
+      "id": "ch-ejpd",
+      "name": {
+        "de": "Eidgenössisches Justiz- und Polizeidepartement (EJPD)",
+        "en": "Federals Justiz- und Polizeidepartement (EJPD)",
+        "fr": "Département fédéral de justice et police (DFJP)",
+        "it": "Dipartimento federale di giustizia e polizia (DFGP)"
+      },
+      "pref_label": {
+        "de": "EJPD",
+        "en": "EJPD",
+        "fr": "DFJP",
+        "it": "DFGP"
+      },
+      "resource": "https://opendata.swiss/id/organization/ch-ejpd",
       "hierarchy_level": 0
     }
   ]

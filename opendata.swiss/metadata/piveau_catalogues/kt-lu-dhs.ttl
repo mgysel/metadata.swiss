@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/kt-lu-dhs> a dcat:Catalog ;
@@ -17,12 +16,8 @@ The Commercial Register is a public source of economic information about compani
         """L'office se compose des départements du registre du commerce et des archives d'État.\r
 \r
 Le registre du commerce est une source publique d'informations économiques sur les entreprises. Il sert avant tout à garantir la sécurité juridique dans les relations commerciales et à protéger la confiance légitime (fonction de publicité)."""@fr ;
-    dcterms:modified "2026-07-22T07:41:28.057752"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <https://handelsregister.lu.ch/> ;
-            foaf:name "Dienststelle Handelsregister und Staatsarchiv"@de,
-                "Department of Commercial Register and State Archives"@en,
-                "Office du registre du commerce et des archives d'État"@fr ] ;
+    dcterms:modified "2026-07-28T09:06:19.472245"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-jsd-handelsregister> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Dienststelle Handelsregister und Staatsarchiv"@de,
         "Department of Commercial Register and State Archives"@en,

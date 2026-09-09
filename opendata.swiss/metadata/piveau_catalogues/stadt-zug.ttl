@@ -1,6 +1,5 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.eu/id/catalogue/stadt-zug> a dcat:Catalog ;
@@ -8,10 +7,8 @@
     dcterms:description """Hier veröffentlicht das Team von Open Data Zug von der kantonalen Fachstelle für Daten und Statistik schrittweise offene Behördendaten der Zuger Verwaltung.\r
 \r
 Weitere Informationen unter https://zg.ch/opendata"""@de ;
-    dcterms:modified "2026-02-03T07:12:38.535032"^^xsd:dateTime ;
-    dcterms:publisher [ a foaf:Agent ;
-            foaf:homepage <> ;
-            foaf:name "Stadt Zug"@de ] ;
+    dcterms:modified "2026-08-10T09:57:59.169689"^^xsd:dateTime ;
+    dcterms:publisher <https://opendata.swiss/id/organization/ch-gde-zug> ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/CHE> ;
     dcterms:title "Stadt Zug"@de ;
     dcterms:type "ckan"^^xsd:string .
